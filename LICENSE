@@ -9,26 +9,32 @@ Kristin Bauer is an interdisciplinary artist based in San Francisco working with
 
 ---
 
-NO LICENSE GRANTED
+NO LICENSE GRANTED (DEFAULT)
 
-No license is granted to use, copy, modify, merge, publish, distribute, sublicense, or sell any part of this repository or its contents.
-Any use of any portion of this repository requires explicit written permission from Kristin Bauer.
+No license is granted to use, copy, modify, merge, publish, distribute, sublicense, or sell any part of this repository or its contents, except as described under “Code (by permission).”
+Any use not explicitly permitted in writing is prohibited.
 
 PERMISSION REQUESTS
 
-To request permission for any use (including reuse of the template/structure or any code), contact:
+To request permission for any use, contact:
 thisiskristinbauer.com
 
-AUDIO RECORDINGS (assets/)
+CODE (BY PERMISSION)
 
-All audio field recordings included in this repository—located in the assets/ directory (for example, assets/fieldrecording-*.WAV)—are Kristin Bauer’s creative property and are not licensed for reuse, sampling, redistribution, or inclusion in other works without explicit written permission.
+You may request written permission to reuse the code only (HTML/CSS/JS). If permission is granted in writing, it applies to the code only and does NOT include any rights to the assets described below.
 
-IMAGERY / ARTWORK (assets/)
+ASSETS NOT INCLUDED (assets/)
 
-All processed imagery included in this repository—located in the assets/ directory (for example, assets/map1.png and assets/map2.png)—is Kristin Bauer’s creative property and is not licensed for reuse, redistribution, or inclusion in other works without explicit written permission.
+The contents of the assets/ directory are NOT licensed for reuse.
 
-Note: Some underlying historical source material may be public domain; however, the processed/composited imagery included in this repository is part of the artist’s artwork and remains All Rights Reserved unless explicitly stated otherwise in writing.
+This includes, without limitation:
+- AUDIO RECORDINGS: assets/fieldrecording-*.WAV (and any other audio files)
+- IMAGERY / ARTWORK: assets/map1.png, assets/map2.png (and any other images / processed artwork)
+
+All audio recordings and processed imagery are Kristin Bauer’s creative property and may not be reused, sampled, redistributed, or included in other works without explicit written permission.
+
+Note: Some underlying historical source material may be public domain; however, the processed/composited imagery included in this repository remains the artist’s artwork and is All Rights Reserved unless explicitly stated otherwise in writing.
 
 NO WARRANTY
 
-THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
