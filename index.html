@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="background">
+            <img id='bg1' src="assets/map1.png">
+            <img id='bg2' src="assets/map2.png">
+        </div>
+        <div id="sound-map">
+            <button class="hotspot area-6" data-sound="audio6" aria-label="San Francisco sound area"></button>
+            <button class="hotspot area-5" data-sound="audio5" aria-label="Occidental sound area"></button>
+            <button class="hotspot area-4" data-sound="audio4" aria-label="Mendocino pitstop sound area"></button>
+            <button class="hotspot area-3" data-sound="audio3" aria-label="Mendocino lot sound area"></button>
+            <button class="hotspot area-2" data-sound="audio2" aria-label="Humboldt sound area"></button>
+            <button class="hotspot area-1" data-sound="audio1" aria-label="Arcata sound area"></button>
+        </div>
+
+        <audio id='audio6' class="map-audio" src="assets/fieldrecording-sanfrancisco.WAV" type="audio/wav" preload="auto" loop></audio>
+        <audio id='audio5' class="map-audio" src="assets/fieldrecording-occidental.WAV" type="audio/wav" preload="auto" loop></audio>
+        <audio id='audio4' class="map-audio" src="assets/fieldrecording-Mendocino-pitstopWAV.WAV" type="audio/wav" preload="auto" loop></audio>
+        <audio id='audio3' class="map-audio" src="assets/fieldrecording-Mendocino-lot.WAV" type="audio/wav" preload="auto" loop></audio>
+        <audio id='audio2' class="map-audio" src="assets/fieldrecording-humboldt.WAV" type="audio/wav" preload="auto" loop></audio>
+        <audio id='audio1' class="map-audio" src="assets/fieldrecording-arcata.WAV" type="audio/wav" preload="auto" loop></audio>
+
+        <button id="listen-btn" type="button" aria-label="Enable sound">Listen</button>
+
+    </body>
+    </html>

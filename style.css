@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow: hidden;
+    font-family: monospace, serif;
+    background: #000;
+  }
+  
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  #bg1, #bg2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 170vmax;
+    height: 170vmax;
+    transform-origin: center center;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 6s ease-in-out;
+  }
+  
+  #bg1 {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  #bg2 {
+    opacity: 0;
+    z-index: 2;
+  }
+
+  #sound-map {
+    position: fixed;
+    inset: 0;
+    z-index: 5;
+  }
+
+  .hotspot {
+    position: absolute;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .hotspot::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(
+      circle,
+      rgba(236, 106, 132, 0.38) 0%,
+      rgba(236, 106, 132, 0.24) 20%,
+      rgba(236, 106, 132, 0.12) 36%,
+      rgba(236, 106, 132, 0.04) 52%,
+      rgba(214, 78, 104, 0) 100%
+    );
+    opacity: 0;
+    transform: scale(0.94);
+    transition: opacity 320ms ease-out;
+    pointer-events: none;
+  }
+
+  .hotspot.is-active::before {
+    opacity: 0.72;
+    animation: hotspotPulse 2.2s ease-in-out infinite;
+  }
+
+  @keyframes hotspotPulse {
+    0% {
+      transform: scale(0.94);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.94);
+      opacity: 1;
+    }
+  }
+
+  body.debug-hotspots .hotspot {
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .area-6 {
+    left: 8%;
+    top: 10%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .area-5 {
+    left: 30%;
+    top: 14%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .area-4 {
+    left: 52%;
+    top: 24%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .area-3 {
+    left: 64%;
+    top: 42%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .area-2 {
+    left: 56%;
+    top: 60%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .area-1 {
+    left: 42%;
+    top: 52%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .map-audio {
+    display: none;
+  }
+
+  #listen-btn {
+    position: fixed;
+    left: 16px;
+    bottom: 16px;
+    z-index: 10;
+    padding: 8px 12px;
+    border: 0;
+    font: inherit;
+    cursor: pointer;
+  }
